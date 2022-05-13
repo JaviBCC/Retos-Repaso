@@ -1,0 +1,19 @@
+{
+  "name": "retos-repaso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaviBCC/Retos-Repaso.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaviBCC/Retos-Repaso/issues"
+  },
+  "homepage": "https://github.com/JaviBCC/Retos-Repaso#readme"
+}
