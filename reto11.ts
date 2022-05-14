@@ -21,8 +21,9 @@ export class Mobile {
     private color:string;
     private is5G:boolean;
     private cameraNumber:number;
+    private price:number;
 
-    constructor (name:string, model:string, trademark:string, sdSize:number, color:string, is5G:boolean, cameraNumber:number) {
+    constructor (name:string, model:string, trademark:string, sdSize:number, color:string, is5G:boolean, cameraNumber:number, price:number) {
 
        this.name         = name;
        this.model        = model;
@@ -31,7 +32,8 @@ export class Mobile {
        this.color        = color;
        this.is5G         = is5G;
        this.cameraNumber = cameraNumber;
-    }
+       this.price        = price;
+    }   
 
     // Getters
     public getName():string{
@@ -62,6 +64,9 @@ export class Mobile {
         return this.cameraNumber;
     }
 
+    public getPrice():number{
+        return this.price;
+    }
 
     // Setters
     public setName(newName:string):void{
@@ -92,6 +97,10 @@ export class Mobile {
         this.cameraNumber = newCameraNumber;
     }
 
+    public setPrice(newPrice:number):void{
+        this.price = newPrice;
+    }
+
     // METODOS
 
 
@@ -104,7 +113,8 @@ export class Mobile {
                             "SD Size (GB): "      + this.sdSize            + "\n" +
                             "Color: "             + this.color             + "\n" +
                             "Is 5g?: "            + this.is5G              + "\n" +
-                            "Number of Cameras: " + this.cameraNumber      + "\n") 
+                            "Number of Cameras: " + this.cameraNumber      + "\n" + 
+                            "Price: "             + this.price             + "\n") 
                    
         return formatMobile;
     }  
