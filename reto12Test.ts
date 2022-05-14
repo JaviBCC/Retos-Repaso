@@ -11,7 +11,7 @@ let myStock:Mobile[] = [mobile4, mobile5, mobile6, mobile7];
 
 let myMobileLibrary1:MobileLibrary = new MobileLibrary("Movistar Center", "Madrid", myStock); 
 
-console.log(myMobileLibrary1.totalPriceCalculation());
+// console.log(myMobileLibrary1.totalPriceCalculation());
 
 console.log(mobile4.getName());
 console.log(mobile4.getModel());

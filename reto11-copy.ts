@@ -1,5 +1,7 @@
 // CREA UNA CLASE LLAMADA MOBILE CON LAS SIGUIENTES CARACTERISTICAS
 
+import { MobileLibrary } from "./reto12";
+
 //    Propiedades Publicas
 //    - name
 //    - model
@@ -106,15 +108,17 @@ export class Mobile {
 
     printMobile() {
 
+    
+
         let formatMobile = ("The characteristics of the mobile name are: " + "\n" +
-                            "Name: "              + this.name              + "\n" +
-                            "Model: "             + this.model             + "\n" +
-                            "Trademark: "         + this.trademark         + "\n" +
-                            "SD Size (GB): "      + this.sdSize            + "\n" +
-                            "Color: "             + this.color             + "\n" +
-                            "Is 5g?: "            + this.is5G              + "\n" +
-                            "Number of Cameras: " + this.cameraNumber      + "\n" + 
-                            "Price: "             + this.price             + "\n") 
+                            "     Name: "              + this.name              + "\n" +
+                            "     Model: "             + this.model             + "\n" +
+                            "     Trademark: "         + this.trademark         + "\n" +
+                            "     SD Size (GB): "      + this.sdSize            + "\n" +
+                            "     Color: "             + this.color             + "\n" +
+                            "     Is 5g?: "            + this.is5G              + "\n" +
+                            "     Number of Cameras: " + this.cameraNumber      + "\n" + 
+                            "     Price: "             + this.price             + "\n") 
                    
         return formatMobile;
     }  
