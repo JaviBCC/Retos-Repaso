@@ -18,11 +18,11 @@ export function detectParImpar (numero1:number) {
 
     }
 
-        return resultado;
+       console.log(resultado);
  
 }
 
 
-(detectParImpar(8));
+detectParImpar(8);
 
 

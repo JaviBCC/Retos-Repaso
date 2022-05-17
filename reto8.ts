@@ -14,9 +14,9 @@ export function checkNombres(listaPalabras:string[]) {
 
     }
 
-        return acumulador;
+        console.log(acumulador);
 
 }
 
 
-(checkNombres(listaPalabras));
+checkNombres(listaPalabras);
