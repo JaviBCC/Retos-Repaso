@@ -10,7 +10,7 @@ export function detectParImpar (numero1:number) {
     if (numero1 % 2 == 0) {
 
         resultado = ("El numero de caracteres " + numero1 + " es par");     
-
+        
 
     } else {
 

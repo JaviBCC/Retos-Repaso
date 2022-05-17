@@ -1,3 +1,6 @@
+import { MobileLibrary } from "./reto12";
+
+
 // CREA UNA CLASE LLAMADA MOBILE CON LAS SIGUIENTES CARACTERISTICAS
 
 //    Propiedades Publicas
