@@ -11,4 +11,4 @@ function checkNombres(listaPalabras) {
     return acumulador;
 }
 exports.checkNombres = checkNombres;
-(checkNombres(listaPalabras));
+console.log(checkNombres(listaPalabras));

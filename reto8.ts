@@ -19,4 +19,4 @@ export function checkNombres(listaPalabras:string[]) {
 }
 
 
-(checkNombres(listaPalabras));
+console.log(checkNombres(listaPalabras));

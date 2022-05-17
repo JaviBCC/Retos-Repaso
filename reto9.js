@@ -15,4 +15,4 @@ function detectParImpar(numero1) {
     return resultado;
 }
 exports.detectParImpar = detectParImpar;
-(detectParImpar(8));
+console.log(detectParImpar(8));

@@ -23,6 +23,6 @@ export function detectParImpar (numero1:number) {
 }
 
 
-(detectParImpar(8));
+console.log(detectParImpar(8));
 
 
