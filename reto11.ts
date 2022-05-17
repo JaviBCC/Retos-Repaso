@@ -104,7 +104,7 @@ export class Mobile {
     // METODOS
 
 
-    printMobile():void{
+    printMobile() {
 
         let formatMobile = ("The characteristics of the mobile name are: " + "\n" +
                             "Name: "              + this.name              + "\n" +
