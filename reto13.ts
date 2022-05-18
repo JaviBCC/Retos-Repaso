@@ -129,21 +129,22 @@ export class Punto {
 
     calcularMasCercano(misPuntos1: Punto[]): Punto {
 
- 
-        let indexAux :Punto = misPuntos1[0];
-    
+
+            let distanciaMinima  = Number.MAX_VALUE;
+            let puntoMascercano  :Punto;
+
             for( let i = 1; i < misPuntos1.length; i++ ){
 
-                if (misPuntos1[i].calcularDistancia(indexAux) < indexAux.calcularDistancia(indexAux)) {
-                    indexAux = misPuntos1[i];
-                }
-    
-            }
-    
-            return indexAux;
+                if (this.calcularDistancia(misPuntos1[i]) < distanciaMinima) {
+                
+                     distanciaMinima = this.calcularDistancia(misPuntos1[i]);
+                     puntoMascercano = misPuntos1[i];
+                }      
+             }
+             
+             return puntoMascercano;
 
     }
-
 }
 
 

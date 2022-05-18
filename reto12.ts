@@ -73,7 +73,8 @@ export class MobileLibrary {
             formatLibrary += (myStock[i].printMobile())   
         }
 
-        return formatLibrary;           
+        console.log(formatLibrary);           
+
 
     }
 
