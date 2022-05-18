@@ -1,4 +1,4 @@
-import {Mobile} from "./reto11-copy"
+import {Mobile} from "./reto11"
 import {MobileLibrary} from "./reto12"
 
 

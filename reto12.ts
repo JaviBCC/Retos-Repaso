@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import {Mobile} from "./reto11-copy"
+=======
+import {Mobile} from "./reto11"
+>>>>>>> rama5
 
 
 // CREAR UNA CLASE QUE SE DENOMINE MOBILELIBRARY QUE CONTENGA LOS SIGUIENTES ATRIBUTOS PRIVADOS:
@@ -73,7 +77,8 @@ export class MobileLibrary {
             formatLibrary += (myStock[i].printMobile())   
         }
 
-        return formatLibrary;           
+        console.log(formatLibrary);           
+
 
     }
 

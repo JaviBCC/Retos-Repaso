@@ -21,10 +21,7 @@ export class Triangulo {
         let lado1:number;
         let lado2:number;
         let lado3:number;
-        
-
-        // let myTriangulo:[] = [];
-        
+              
         lado1 = this.coordenada2.calcularDistancia(this.coordenada3);
         lado2 = this.coordenada3.calcularDistancia(this.coordenada4);
         lado3 = this.coordenada4.calcularDistancia(this.coordenada2);

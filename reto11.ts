@@ -1,3 +1,6 @@
+import { MobileLibrary } from "./reto12";
+
+
 // CREA UNA CLASE LLAMADA MOBILE CON LAS SIGUIENTES CARACTERISTICAS
 
 //    Propiedades Publicas
@@ -116,7 +119,7 @@ export class Mobile {
                             "Number of Cameras: " + this.cameraNumber      + "\n" + 
                             "Price: "             + this.price             + "\n") 
                    
-        return formatMobile;
+        console.log(formatMobile);
     }  
  
 

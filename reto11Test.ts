@@ -17,11 +17,10 @@ let arrMobile:Mobile[] = [mobile1,mobile2,mobile3];
 
 console.log(mobile1, mobile2, mobile3);
 
-console.log(mobile1.printMobile());
-
+mobile1.printMobile();
 
 for (let i = 0; i < arrMobile.length; i++) {
-     console.log(arrMobile[i].printMobile());         
+     arrMobile[i].printMobile();         
 }
-    
+
 

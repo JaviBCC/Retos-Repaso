@@ -2,7 +2,7 @@ import {Punto} from "./reto13"
 import {Triangulo} from "./reto14"
 
 let coordenada1:Punto  = new Punto(8, 12);
-let coordenada2:Punto  = new Punto(9, - 16);
+let coordenada2:Punto  = new Punto(9, -16);
 let coordenada3:Punto  = new Punto(16, 2);
 let coordenada4:Punto  = new Punto(-5, 8);
 
